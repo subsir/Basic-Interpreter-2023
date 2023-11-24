@@ -168,7 +168,6 @@ CMakeFiles/code.dir/Basic/Basic.cpp.o: \
  /mnt/d/Studio/C/Basic-Interpreter-2023-main/Basic/exp.hpp \
  /mnt/d/Studio/C/Basic-Interpreter-2023-main/Basic/parser.hpp \
  /mnt/d/Studio/C/Basic-Interpreter-2023-main/Basic/program.hpp \
- /mnt/d/Studio/C/Basic-Interpreter-2023-main/Basic/statement.hpp \
  /usr/include/c++/11/set /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h \
  /usr/include/c++/11/unordered_map /usr/include/c++/11/bits/hashtable.h \
