@@ -26,11 +26,6 @@
 },
 {
   "directory": "/mnt/d/Studio/C/Basic-Interpreter-2023-main/build",
-  "command": "/usr/bin/g++   -g -o CMakeFiles/code.dir/Basic/statement.cpp.o -c /mnt/d/Studio/C/Basic-Interpreter-2023-main/Basic/statement.cpp",
-  "file": "/mnt/d/Studio/C/Basic-Interpreter-2023-main/Basic/statement.cpp"
-},
-{
-  "directory": "/mnt/d/Studio/C/Basic-Interpreter-2023-main/build",
   "command": "/usr/bin/g++   -g -o CMakeFiles/code.dir/Basic/Utils/error.cpp.o -c /mnt/d/Studio/C/Basic-Interpreter-2023-main/Basic/Utils/error.cpp",
   "file": "/mnt/d/Studio/C/Basic-Interpreter-2023-main/Basic/Utils/error.cpp"
 },

@@ -321,30 +321,6 @@ Basic/program.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/Basic/program.cpp.s
 .PHONY : Basic/program.cpp.s
 
-Basic/statement.o: Basic/statement.cpp.o
-.PHONY : Basic/statement.o
-
-# target to build an object file
-Basic/statement.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/Basic/statement.cpp.o
-.PHONY : Basic/statement.cpp.o
-
-Basic/statement.i: Basic/statement.cpp.i
-.PHONY : Basic/statement.i
-
-# target to preprocess a source file
-Basic/statement.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/Basic/statement.cpp.i
-.PHONY : Basic/statement.cpp.i
-
-Basic/statement.s: Basic/statement.cpp.s
-.PHONY : Basic/statement.s
-
-# target to generate assembly for a file
-Basic/statement.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/Basic/statement.cpp.s
-.PHONY : Basic/statement.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -378,9 +354,6 @@ help:
 	@echo "... Basic/program.o"
 	@echo "... Basic/program.i"
 	@echo "... Basic/program.s"
-	@echo "... Basic/statement.o"
-	@echo "... Basic/statement.i"
-	@echo "... Basic/statement.s"
 .PHONY : help
 
 

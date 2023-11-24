@@ -139,24 +139,10 @@ CMakeFiles/code.dir/Basic/program.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/Basic/program.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Studio/C/Basic-Interpreter-2023-main/Basic/program.cpp -o CMakeFiles/code.dir/Basic/program.cpp.s
 
-CMakeFiles/code.dir/Basic/statement.cpp.o: CMakeFiles/code.dir/flags.make
-CMakeFiles/code.dir/Basic/statement.cpp.o: ../Basic/statement.cpp
-CMakeFiles/code.dir/Basic/statement.cpp.o: CMakeFiles/code.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Studio/C/Basic-Interpreter-2023-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/code.dir/Basic/statement.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/code.dir/Basic/statement.cpp.o -MF CMakeFiles/code.dir/Basic/statement.cpp.o.d -o CMakeFiles/code.dir/Basic/statement.cpp.o -c /mnt/d/Studio/C/Basic-Interpreter-2023-main/Basic/statement.cpp
-
-CMakeFiles/code.dir/Basic/statement.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code.dir/Basic/statement.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Studio/C/Basic-Interpreter-2023-main/Basic/statement.cpp > CMakeFiles/code.dir/Basic/statement.cpp.i
-
-CMakeFiles/code.dir/Basic/statement.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/Basic/statement.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Studio/C/Basic-Interpreter-2023-main/Basic/statement.cpp -o CMakeFiles/code.dir/Basic/statement.cpp.s
-
 CMakeFiles/code.dir/Basic/Utils/error.cpp.o: CMakeFiles/code.dir/flags.make
 CMakeFiles/code.dir/Basic/Utils/error.cpp.o: ../Basic/Utils/error.cpp
 CMakeFiles/code.dir/Basic/Utils/error.cpp.o: CMakeFiles/code.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Studio/C/Basic-Interpreter-2023-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/code.dir/Basic/Utils/error.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Studio/C/Basic-Interpreter-2023-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/code.dir/Basic/Utils/error.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/code.dir/Basic/Utils/error.cpp.o -MF CMakeFiles/code.dir/Basic/Utils/error.cpp.o.d -o CMakeFiles/code.dir/Basic/Utils/error.cpp.o -c /mnt/d/Studio/C/Basic-Interpreter-2023-main/Basic/Utils/error.cpp
 
 CMakeFiles/code.dir/Basic/Utils/error.cpp.i: cmake_force
@@ -170,7 +156,7 @@ CMakeFiles/code.dir/Basic/Utils/error.cpp.s: cmake_force
 CMakeFiles/code.dir/Basic/Utils/tokenScanner.cpp.o: CMakeFiles/code.dir/flags.make
 CMakeFiles/code.dir/Basic/Utils/tokenScanner.cpp.o: ../Basic/Utils/tokenScanner.cpp
 CMakeFiles/code.dir/Basic/Utils/tokenScanner.cpp.o: CMakeFiles/code.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Studio/C/Basic-Interpreter-2023-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/code.dir/Basic/Utils/tokenScanner.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Studio/C/Basic-Interpreter-2023-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/code.dir/Basic/Utils/tokenScanner.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/code.dir/Basic/Utils/tokenScanner.cpp.o -MF CMakeFiles/code.dir/Basic/Utils/tokenScanner.cpp.o.d -o CMakeFiles/code.dir/Basic/Utils/tokenScanner.cpp.o -c /mnt/d/Studio/C/Basic-Interpreter-2023-main/Basic/Utils/tokenScanner.cpp
 
 CMakeFiles/code.dir/Basic/Utils/tokenScanner.cpp.i: cmake_force
@@ -184,7 +170,7 @@ CMakeFiles/code.dir/Basic/Utils/tokenScanner.cpp.s: cmake_force
 CMakeFiles/code.dir/Basic/Utils/strlib.cpp.o: CMakeFiles/code.dir/flags.make
 CMakeFiles/code.dir/Basic/Utils/strlib.cpp.o: ../Basic/Utils/strlib.cpp
 CMakeFiles/code.dir/Basic/Utils/strlib.cpp.o: CMakeFiles/code.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Studio/C/Basic-Interpreter-2023-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/code.dir/Basic/Utils/strlib.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Studio/C/Basic-Interpreter-2023-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/code.dir/Basic/Utils/strlib.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/code.dir/Basic/Utils/strlib.cpp.o -MF CMakeFiles/code.dir/Basic/Utils/strlib.cpp.o.d -o CMakeFiles/code.dir/Basic/Utils/strlib.cpp.o -c /mnt/d/Studio/C/Basic-Interpreter-2023-main/Basic/Utils/strlib.cpp
 
 CMakeFiles/code.dir/Basic/Utils/strlib.cpp.i: cmake_force
@@ -202,7 +188,6 @@ code_OBJECTS = \
 "CMakeFiles/code.dir/Basic/exp.cpp.o" \
 "CMakeFiles/code.dir/Basic/parser.cpp.o" \
 "CMakeFiles/code.dir/Basic/program.cpp.o" \
-"CMakeFiles/code.dir/Basic/statement.cpp.o" \
 "CMakeFiles/code.dir/Basic/Utils/error.cpp.o" \
 "CMakeFiles/code.dir/Basic/Utils/tokenScanner.cpp.o" \
 "CMakeFiles/code.dir/Basic/Utils/strlib.cpp.o"
@@ -215,13 +200,12 @@ code: CMakeFiles/code.dir/Basic/evalstate.cpp.o
 code: CMakeFiles/code.dir/Basic/exp.cpp.o
 code: CMakeFiles/code.dir/Basic/parser.cpp.o
 code: CMakeFiles/code.dir/Basic/program.cpp.o
-code: CMakeFiles/code.dir/Basic/statement.cpp.o
 code: CMakeFiles/code.dir/Basic/Utils/error.cpp.o
 code: CMakeFiles/code.dir/Basic/Utils/tokenScanner.cpp.o
 code: CMakeFiles/code.dir/Basic/Utils/strlib.cpp.o
 code: CMakeFiles/code.dir/build.make
 code: CMakeFiles/code.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Studio/C/Basic-Interpreter-2023-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable code"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Studio/C/Basic-Interpreter-2023-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable code"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/code.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

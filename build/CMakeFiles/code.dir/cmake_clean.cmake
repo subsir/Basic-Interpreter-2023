@@ -15,8 +15,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/code.dir/Basic/parser.cpp.o.d"
   "CMakeFiles/code.dir/Basic/program.cpp.o"
   "CMakeFiles/code.dir/Basic/program.cpp.o.d"
-  "CMakeFiles/code.dir/Basic/statement.cpp.o"
-  "CMakeFiles/code.dir/Basic/statement.cpp.o.d"
   "code"
   "code.pdb"
 )

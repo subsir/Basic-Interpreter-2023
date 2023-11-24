@@ -16,7 +16,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/d/Studio/C/Basic-Interpreter-2023-main/Basic/exp.cpp" "CMakeFiles/code.dir/Basic/exp.cpp.o" "gcc" "CMakeFiles/code.dir/Basic/exp.cpp.o.d"
   "/mnt/d/Studio/C/Basic-Interpreter-2023-main/Basic/parser.cpp" "CMakeFiles/code.dir/Basic/parser.cpp.o" "gcc" "CMakeFiles/code.dir/Basic/parser.cpp.o.d"
   "/mnt/d/Studio/C/Basic-Interpreter-2023-main/Basic/program.cpp" "CMakeFiles/code.dir/Basic/program.cpp.o" "gcc" "CMakeFiles/code.dir/Basic/program.cpp.o.d"
-  "/mnt/d/Studio/C/Basic-Interpreter-2023-main/Basic/statement.cpp" "CMakeFiles/code.dir/Basic/statement.cpp.o" "gcc" "CMakeFiles/code.dir/Basic/statement.cpp.o.d"
   )
 
 # Targets to which this target links.
