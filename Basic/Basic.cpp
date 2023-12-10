@@ -84,9 +84,7 @@ void processLine(std::string line, Program &program, EvalState &state,
       }
       return;
     }
-    if (token == "REM") {
-    } else if (token == "GOTO") {
-    } else if (token == "LET") {
+    if (token == "LET") {
       if (scanner.hasMoreTokens()) {
         CompoundExp *exp = dynamic_cast<CompoundExp *>(readE(scanner));
         if (exp != nullptr) {
@@ -258,8 +256,6 @@ void processLine(std::string line, Program &program, EvalState &state,
     } else if (token == "CLEAR") {
       state.Clear();
       program.clear();
-    }
-    if (lineNum != -1) {
     }
   }
 }

@@ -1,3 +1,3 @@
-/mnt/d/Studio/C/Basic-Interpreter-2023-main/build/CMakeFiles/code.dir
-/mnt/d/Studio/C/Basic-Interpreter-2023-main/build/CMakeFiles/edit_cache.dir
-/mnt/d/Studio/C/Basic-Interpreter-2023-main/build/CMakeFiles/rebuild_cache.dir
+D:/Studio/C/Basic-Interpreter-2023-main/build/CMakeFiles/code.dir
+D:/Studio/C/Basic-Interpreter-2023-main/build/CMakeFiles/edit_cache.dir
+D:/Studio/C/Basic-Interpreter-2023-main/build/CMakeFiles/rebuild_cache.dir

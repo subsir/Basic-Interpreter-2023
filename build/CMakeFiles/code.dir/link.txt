@@ -1,1 +1,3 @@
-/usr/bin/g++ -g CMakeFiles/code.dir/Basic/Basic.cpp.o CMakeFiles/code.dir/Basic/evalstate.cpp.o CMakeFiles/code.dir/Basic/exp.cpp.o CMakeFiles/code.dir/Basic/parser.cpp.o CMakeFiles/code.dir/Basic/program.cpp.o CMakeFiles/code.dir/Basic/Utils/error.cpp.o CMakeFiles/code.dir/Basic/Utils/tokenScanner.cpp.o CMakeFiles/code.dir/Basic/Utils/strlib.cpp.o -o code 
+D:\CMake\bin\cmake.exe -E rm -f CMakeFiles\code.dir/objects.a
+C:\MinGW\mingw64\bin\ar.exe qc CMakeFiles\code.dir/objects.a @CMakeFiles\code.dir\objects1.rsp
+C:\MinGW\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\code.dir/objects.a -Wl,--no-whole-archive -o code.exe -Wl,--out-implib,libcode.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\code.dir\linkLibs.rsp

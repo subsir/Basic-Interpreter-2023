@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "code::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-code-Debug-aa9ac26dd1a167ee7255.json",
+					"jsonFile" : "target-code-Debug-c0cf5e46cc16bb6b74f2.json",
 					"name" : "code",
 					"projectIndex" : 0
 				}
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/mnt/d/Studio/C/Basic-Interpreter-2023-main/build",
-		"source" : "/mnt/d/Studio/C/Basic-Interpreter-2023-main"
+		"build" : "D:/Studio/C/Basic-Interpreter-2023-main/build",
+		"source" : "D:/Studio/C/Basic-Interpreter-2023-main"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 3
+		"minor" : 6
 	}
 }

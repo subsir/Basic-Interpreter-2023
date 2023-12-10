@@ -1,42 +1,50 @@
 [
 {
-  "directory": "/mnt/d/Studio/C/Basic-Interpreter-2023-main/build",
-  "command": "/usr/bin/g++   -g -o CMakeFiles/code.dir/Basic/Basic.cpp.o -c /mnt/d/Studio/C/Basic-Interpreter-2023-main/Basic/Basic.cpp",
-  "file": "/mnt/d/Studio/C/Basic-Interpreter-2023-main/Basic/Basic.cpp"
+  "directory": "D:/Studio/C/Basic-Interpreter-2023-main/build",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\code.dir\\Basic\\Basic.cpp.obj -c D:\\Studio\\C\\Basic-Interpreter-2023-main\\Basic\\Basic.cpp",
+  "file": "D:/Studio/C/Basic-Interpreter-2023-main/Basic/Basic.cpp",
+  "output": "CMakeFiles/code.dir/Basic/Basic.cpp.obj"
 },
 {
-  "directory": "/mnt/d/Studio/C/Basic-Interpreter-2023-main/build",
-  "command": "/usr/bin/g++   -g -o CMakeFiles/code.dir/Basic/evalstate.cpp.o -c /mnt/d/Studio/C/Basic-Interpreter-2023-main/Basic/evalstate.cpp",
-  "file": "/mnt/d/Studio/C/Basic-Interpreter-2023-main/Basic/evalstate.cpp"
+  "directory": "D:/Studio/C/Basic-Interpreter-2023-main/build",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\code.dir\\Basic\\evalstate.cpp.obj -c D:\\Studio\\C\\Basic-Interpreter-2023-main\\Basic\\evalstate.cpp",
+  "file": "D:/Studio/C/Basic-Interpreter-2023-main/Basic/evalstate.cpp",
+  "output": "CMakeFiles/code.dir/Basic/evalstate.cpp.obj"
 },
 {
-  "directory": "/mnt/d/Studio/C/Basic-Interpreter-2023-main/build",
-  "command": "/usr/bin/g++   -g -o CMakeFiles/code.dir/Basic/exp.cpp.o -c /mnt/d/Studio/C/Basic-Interpreter-2023-main/Basic/exp.cpp",
-  "file": "/mnt/d/Studio/C/Basic-Interpreter-2023-main/Basic/exp.cpp"
+  "directory": "D:/Studio/C/Basic-Interpreter-2023-main/build",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\code.dir\\Basic\\exp.cpp.obj -c D:\\Studio\\C\\Basic-Interpreter-2023-main\\Basic\\exp.cpp",
+  "file": "D:/Studio/C/Basic-Interpreter-2023-main/Basic/exp.cpp",
+  "output": "CMakeFiles/code.dir/Basic/exp.cpp.obj"
 },
 {
-  "directory": "/mnt/d/Studio/C/Basic-Interpreter-2023-main/build",
-  "command": "/usr/bin/g++   -g -o CMakeFiles/code.dir/Basic/parser.cpp.o -c /mnt/d/Studio/C/Basic-Interpreter-2023-main/Basic/parser.cpp",
-  "file": "/mnt/d/Studio/C/Basic-Interpreter-2023-main/Basic/parser.cpp"
+  "directory": "D:/Studio/C/Basic-Interpreter-2023-main/build",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\code.dir\\Basic\\parser.cpp.obj -c D:\\Studio\\C\\Basic-Interpreter-2023-main\\Basic\\parser.cpp",
+  "file": "D:/Studio/C/Basic-Interpreter-2023-main/Basic/parser.cpp",
+  "output": "CMakeFiles/code.dir/Basic/parser.cpp.obj"
 },
 {
-  "directory": "/mnt/d/Studio/C/Basic-Interpreter-2023-main/build",
-  "command": "/usr/bin/g++   -g -o CMakeFiles/code.dir/Basic/program.cpp.o -c /mnt/d/Studio/C/Basic-Interpreter-2023-main/Basic/program.cpp",
-  "file": "/mnt/d/Studio/C/Basic-Interpreter-2023-main/Basic/program.cpp"
+  "directory": "D:/Studio/C/Basic-Interpreter-2023-main/build",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\code.dir\\Basic\\program.cpp.obj -c D:\\Studio\\C\\Basic-Interpreter-2023-main\\Basic\\program.cpp",
+  "file": "D:/Studio/C/Basic-Interpreter-2023-main/Basic/program.cpp",
+  "output": "CMakeFiles/code.dir/Basic/program.cpp.obj"
 },
 {
-  "directory": "/mnt/d/Studio/C/Basic-Interpreter-2023-main/build",
-  "command": "/usr/bin/g++   -g -o CMakeFiles/code.dir/Basic/Utils/error.cpp.o -c /mnt/d/Studio/C/Basic-Interpreter-2023-main/Basic/Utils/error.cpp",
-  "file": "/mnt/d/Studio/C/Basic-Interpreter-2023-main/Basic/Utils/error.cpp"
+  "directory": "D:/Studio/C/Basic-Interpreter-2023-main/build",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\code.dir\\Basic\\Utils\\error.cpp.obj -c D:\\Studio\\C\\Basic-Interpreter-2023-main\\Basic\\Utils\\error.cpp",
+  "file": "D:/Studio/C/Basic-Interpreter-2023-main/Basic/Utils/error.cpp",
+  "output": "CMakeFiles/code.dir/Basic/Utils/error.cpp.obj"
 },
 {
-  "directory": "/mnt/d/Studio/C/Basic-Interpreter-2023-main/build",
-  "command": "/usr/bin/g++   -g -o CMakeFiles/code.dir/Basic/Utils/tokenScanner.cpp.o -c /mnt/d/Studio/C/Basic-Interpreter-2023-main/Basic/Utils/tokenScanner.cpp",
-  "file": "/mnt/d/Studio/C/Basic-Interpreter-2023-main/Basic/Utils/tokenScanner.cpp"
+  "directory": "D:/Studio/C/Basic-Interpreter-2023-main/build",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\code.dir\\Basic\\Utils\\tokenScanner.cpp.obj -c D:\\Studio\\C\\Basic-Interpreter-2023-main\\Basic\\Utils\\tokenScanner.cpp",
+  "file": "D:/Studio/C/Basic-Interpreter-2023-main/Basic/Utils/tokenScanner.cpp",
+  "output": "CMakeFiles/code.dir/Basic/Utils/tokenScanner.cpp.obj"
 },
 {
-  "directory": "/mnt/d/Studio/C/Basic-Interpreter-2023-main/build",
-  "command": "/usr/bin/g++   -g -o CMakeFiles/code.dir/Basic/Utils/strlib.cpp.o -c /mnt/d/Studio/C/Basic-Interpreter-2023-main/Basic/Utils/strlib.cpp",
-  "file": "/mnt/d/Studio/C/Basic-Interpreter-2023-main/Basic/Utils/strlib.cpp"
+  "directory": "D:/Studio/C/Basic-Interpreter-2023-main/build",
+  "command": "C:\\MinGW\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\code.dir\\Basic\\Utils\\strlib.cpp.obj -c D:\\Studio\\C\\Basic-Interpreter-2023-main\\Basic\\Utils\\strlib.cpp",
+  "file": "D:/Studio/C/Basic-Interpreter-2023-main/Basic/Utils/strlib.cpp",
+  "output": "CMakeFiles/code.dir/Basic/Utils/strlib.cpp.obj"
 }
 ]
