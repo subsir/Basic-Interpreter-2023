@@ -24,7 +24,6 @@ void Program::clear() {
   int min_index = -1;
   index.clear();
   pg.clear();
-  sm.clear();
   go.clear();
   opif.clear();
 }
@@ -33,7 +32,6 @@ void Program::addSourceLine(int lineNumber, const std::string &line) {
   pg[lineNumber] = line;
   auto it = std::find(index.begin(), index.end(), lineNumber);
   if (it != index.end()) {
-    sm.erase(lineNumber);
     go.erase(lineNumber);
     opif.erase(lineNumber);
   } else {
@@ -48,7 +46,6 @@ void Program::removeSourceLine(int lineNumber) {
   auto it = pg.find(lineNumber);
   if (it != pg.end()) {
     pg.erase(it);
-    sm.erase(lineNumber);
     go.erase(lineNumber);
     opif.erase(lineNumber);
     auto index_of_lineNum = std::find(index.begin(), index.end(), lineNumber);
@@ -62,16 +59,6 @@ std::string Program::getSourceLine(int lineNumber) {
     return it->second;
   }
   return "";
-}
-
-void Program::setParsedStatement(int lineNumber, Statement *stmt) {}
-
-Statement *Program::getParsedStatement(int lineNumber) {
-  auto it = sm.find(lineNumber);
-  if (it != sm.end()) {
-    return it->second;
-  }
-  return nullptr;
 }
 
 std::vector<int> Program::getLISTLineNumber() {

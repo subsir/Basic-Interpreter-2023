@@ -8,13 +8,10 @@
 #ifndef _program_h
 #define _program_h
 
-#include "statement.hpp"
 #include <set>
 #include <string>
 #include <unordered_map>
 #include <vector>
-
-class Statement;
 
 /*
  * This class stores the lines in a BASIC program.  Each line
@@ -95,29 +92,6 @@ public:
   std::string getSourceLine(int lineNumber);
 
   /*
-   * Method: setParsedStatement
-   * Usage: program.setParsedStatement(lineNumber, stmt);
-   * ----------------------------------------------------
-   * Adds the parsed representation of the statement to the statement
-   * at the specified line number.  If no such line exists, this
-   * method raises an error.  If a previous parsed representation
-   * exists, the memory for that statement is reclaimed.
-   */
-
-  void setParsedStatement(int lineNumber, Statement *stmt);
-
-  /*
-   * Method: getParsedStatement
-   * Usage: Statement *stmt = program.getParsedStatement(lineNumber);
-   * ----------------------------------------------------------------
-   * Retrieves the parsed representation of the statement at the
-   * specified line number.  If no value has been set, this method
-   * returns NULL.
-   */
-
-  Statement *getParsedStatement(int lineNumber);
-
-  /*
    * Method: getFirstLineNumber
    * Usage: int lineNumber = program.getFirstLineNumber();
    * -----------------------------------------------------
@@ -136,21 +110,25 @@ public:
    * in the program.  If no more lines remain, this method returns -1.
    */
 
+  // 获取下一行号
   int getNextLineNumber(int lineNumber);
 
+  // 获取最低行号
   int getLowestNumber();
 
+  // 添加GOTO操作
   void addGOTOoperation(int lineNumber, int nextLineNumber);
 
+  // 添加IF操作
   void addIFoperation(int lineNumber, int nextLineNumber);
 
+  // 清除IF操作
   void IFclear();
 
 private:
   int min_index = -1;                      // min_lineNum's index
   std::vector<int> index;                  // chronological index in line
   std::unordered_map<int, std::string> pg; // lineNumber->string
-  std::unordered_map<int, Statement *> sm; // lineNumber->Statement
   std::unordered_map<int, int> go;         // from numfirst to numnext
   std::unordered_map<int, int> opif;       // from numfirst to numnext
 };
